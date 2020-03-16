@@ -1,0 +1,61 @@
+# Project 1: Traffic Animation
+
+* Author: Matt Fuller
+* Class: CS121 Section 6
+* Semester: Spring 2017
+
+## Overview
+
+Animates a vehicle driving down a road relative to an anchor position using methods  
+from the the Graphics class and colors from the Color class. Also includes an avatar 
+observing the car.
+
+## Testing
+
+First, copy the p1 file from Eclipse and upload it into Onyx by opening Onyx 
+and locating the directory you want to upload the p1 file into. 
+
+Next, open file explorer and locate the p1 file. 
+
+The only files you need to copy are the ".java" and the "README" files. 
+Click and drag the files directly into a directory on Onyx.
+
+Compile the program by executing the following command in the main project 
+directory:
+```
+$ javac TrafficAnimation.java
+```
+
+Run the compiled class with the command:
+```
+$ java TrafficAnimation
+```
+
+## Discussion
+
+The first thing I did after reading the program specifications was 
+look at previous examples. Next, I sketched out and a vehicle, avatar, and other 
+elements so I could get an idea of where I needed to position everything.
+I began coding the program by prioritizing which elements needed
+to be coded first. 
+  
+Some of the objects were difficult to scale. For example, when I was 
+drawing my avatar it was difficult to position the head above the body
+when the screen was resized. At some points, it was just trial and error.
+
+I found it very helpful having example codes of programs that showed 
+how to use different different methods, like how to set the font and 
+size of your text. 
+
+I felt like I managed the variables well. This makes it easier to follow
+along with the comments.
+ 
+The errors I encountered were mostly scaling errors. There were many 
+equations used to position and update positions for each element used, so
+the errors were shapes in the wrong position. I fixed some by just reevaluating 
+the scaling equations, but most were by trail and error.  
+  
+This project gave me more practice using the Graphics class and managing 
+variables. Everything that I learned in this project will apply to future projects. 
+Most of the programs will have similar structures, so developing programs in the 
+future should be easier.
